@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById('post-image').alt = post.title;
                 
                 const formattedTitle = formatTitleForURL(post.title);
-                const shareURL = `https://www.seusite.com/${formattedTitle}.html`;
+                const shareURL = `https://euquerobrindesgratis.netlify.app/${formattedTitle}.html`;
                 createShareLinks(shareURL);
             } else {
                 document.getElementById('post-content-title').innerText = 'Post não encontrado';
