@@ -1,0 +1,167 @@
+/* Estilos existentes */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.header {
+    background: #ed5085;
+    padding: 30px;
+    max-width: 100%;
+    margin: 0px auto; /* Adiciona margem superior e inferior */
+    text-align: center;
+}
+
+.header .logo {
+    width: 120px;
+}
+
+.banner img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 580px;
+    margin: 10px auto; /* Adiciona margem superior e inferior */
+    background-color: #ffffff;
+    padding: 30px; /* Aumenta o padding para mais espaçamento interno */
+    text-align: center;
+    box-shadow: 0 0 00px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    margin-bottom: 30px; /* Adiciona espaçamento inferior entre os posts */
+}
+
+.content h1 {
+    font-size: 20px; /* Aumenta o tamanho da fonte */
+    color: #333333;
+    margin-bottom: 20px; /* Adiciona espaçamento inferior */
+}
+
+.content img {
+    width: 100%;
+    max-width: 350px; /* Aumenta o tamanho máximo da imagem */
+    margin-bottom: 20px; /* Adiciona espaçamento inferior */
+}
+
+.button-container {
+    margin-top: 10px; /* Aumenta o espaçamento superior */
+    text-align: center;
+}
+
+.button-container button {
+    background: linear-gradient(90deg, #ff0000 0%, #ff4d4d 100%);
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold; /* Adiciona negrito à fonte */
+    cursor: pointer;
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button-container button:hover {
+    background: linear-gradient(90deg, #ff4d4d 0%, #ff0000 100%);
+}
+
+.share-container {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.share-container p {
+    margin-bottom: 10px;
+}
+
+.share-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.share-links a {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+}
+
+.share-links a .fab,
+.share-links a .fas {
+    line-height: 24px;
+}
+
+.share-links a:hover {
+    opacity: 0.8;
+}
+
+.share-links a[title="Compartilhar no WhatsApp"] {
+    background-color: #25D366;
+}
+
+.share-links a[title="Compartilhar no Twitter"] {
+    background-color: #1DA1F2;
+}
+
+.share-links a[title="Compartilhar no Facebook"] {
+    background-color: #3b5998;
+}
+
+.share-links a[title="Compartilhar no Instagram"] {
+    background-color: #E1306C;
+}
+
+.share-links a[title="Copiar Link"] {
+    background-color: #333;
+}
+
+@media (max-width: 600px) {
+    .share-links a {
+        width: 15px;
+        height: 15px;
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+
+
+
+
+
+
+
+/* Novos estilos */
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px; /* Adiciona espaçamento inferior */
+}
+
+.pagination button {
+    background: #ed5085;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pagination button[disabled] {
+    background: #cccccc;
+    cursor: not-allowed;
+}
