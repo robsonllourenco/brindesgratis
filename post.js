@@ -42,5 +42,5 @@ function copyToClipboard(text) {
 }
 
 function claimGift() {
-    window.location.href = "https://euquerobrindesgratis.blogspot.com/";
+    window.location.href = "https://www.euquerobrindesgratis.com.br/";
 }
