@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById('post-image').src = post.image;
                 document.getElementById('post-image').alt = post.title;
                 
-                const shareURL = `https://euquerobrindesgratis.netlify.app/post.html?id=${postId}`;
+                const shareURL = `https://euquerobrindes.com.br/post.html?id=${postId}`;
                 createShareLinks(shareURL);
             } else {
                 document.getElementById('post-content-title').innerText = 'Post não encontrado';
